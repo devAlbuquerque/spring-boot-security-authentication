@@ -5,11 +5,10 @@
 	<title>EventosApp</title>
 	<!--Import Google Icon Font-->
       <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet"/>
-      <!--Import materialize.css-->
-      <!-- <link type="text/css" rel="stylesheet" href="materialize/css/materialize.min.css"  media="screen,projection"/>  -->
 
       <!--Let browser know website is optimized for mobile-->
       <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+      
       <link rel="stylesheet" href="style/styleCss.css"/>
 </head>
 <body>
@@ -17,7 +16,7 @@
 	<header>
 		<nav class="menu">
 		    <div>
-	            <a class="title" href="#">Lista de Eventos</a>
+	            <a class="title" href="/logout">Lista de Eventos</a>
 		        <a class="cadastro" href="/eventos">Lista de eventos</a>
 		    </div>
 		</nav>	
@@ -34,16 +33,13 @@
 			<p><button type="submit">Salvar</button></p>	
 		</form>	
 	</div>
-		
-	<th:block th:include="mensagemValidacao"></th:block>
 	
 	<footer class="rodape">
 		<p>@Copyright 2020-2020 Sistema web spring boot com autenticação via spring security</p>
 	</footer>		
 	
 	<script type="text/javascript" src="https://code.jquery.com/jquery-3.2.1.min.js"></script>
-    <script type="text/javascript" src="materialize/js/materialize.min.js"></script>
-</body>
 
+</body>
 
 </html>
