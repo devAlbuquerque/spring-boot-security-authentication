@@ -1,0 +1,8 @@
+datasource:
+  bd:
+    driver-class-name: org.postgresql.Driver
+    url: jdbc:postgresql://localhost:5432/eventospringapp
+    username: postgres
+    password: postgres
+    database: POSTGRESQL
+    database-platform: org.hibernate.dialect.PostgreSQLDialect

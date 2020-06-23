@@ -1,0 +1,8 @@
+datasource:
+  bd:
+    driver-class-name: com.mysql.cj.jdbc.Driver
+    url: jdbc:mysql://localhost:3306/eventospringapp
+    username: root
+    password: root
+    database: MYSQL
+    database-platform: org.hibernate.dialect.MySQL8Dialect
